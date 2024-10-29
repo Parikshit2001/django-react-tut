@@ -1,0 +1,45 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+develop-eggs/
+sdist/
+wheels/
+.eggs/
+lib/
+lib64/
+parts/
+*.egg
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Django Project local settings
+local_settings.py
+
+# Django Static files
+# static/
+
+# Django Media files
+media/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln
+*.pdb
+*.pyproj
+*.ipynb_checkpoints
+
+# Operating system files
+.DS_Store
+Thumbs.dbƒ
