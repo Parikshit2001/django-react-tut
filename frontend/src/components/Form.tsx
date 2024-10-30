@@ -33,6 +33,11 @@ function Form({ route, method }: { route: string; method: string }) {
       setLoading(false);
     }
   };
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <form onSubmit={handleSubmit}>
       <h1>{name}</h1>
